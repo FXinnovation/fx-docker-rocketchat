@@ -4,9 +4,13 @@ ARG BUILD_DATE
 ARG VCS_REF
 ARG VERSION
 
+USER root
+
 ADD ./resources /resources
 
 RUN /resources/build && rm -rf /resources
+
+USER rocketchat
 
 LABEL "maintainer"="cloudsquad@fxinnovation.com" \
       "org.label-schema.name"="rocketchat" \
