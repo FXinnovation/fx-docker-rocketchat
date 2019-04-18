@@ -1,3 +1,4 @@
-# docker-gitea
+# docker-rocketchat
 
-Docker image for gitea
+rocketchat in a container.
+
