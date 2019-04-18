@@ -1,0 +1,3 @@
+fxDockerImage(
+  image: 'rocketchat'
+)

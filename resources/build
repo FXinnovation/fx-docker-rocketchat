@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -ex
+
+# CIS Benchmarking
+touch /etc/login.defs
+chmod 0444 /etc/login.defs
+
+chmod 0600 /etc/shadow
