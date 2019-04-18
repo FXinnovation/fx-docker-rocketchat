@@ -1,3 +1,4 @@
 # docker-rocketchat
 
-rocketchat in a container
+rocketchat in a container.
+
